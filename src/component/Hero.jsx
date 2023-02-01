@@ -11,6 +11,7 @@ import heroImg9 from "../assets/heroImg9.svg";
 import "../style/style.css";
 
 export function Hero() {
+  
   return (
     <div className="hero-section">
       <div className="container mx-auto">
@@ -28,8 +29,18 @@ export function Hero() {
               Get a skill <RiArrowRightUpLine className="w-5 h-5 ml-2" />
             </button>
           </div>
-          <div className="grid gap-x-6 grid-cols-3 py-[97px]">
-            <div className="flex flex-col gap-y-5">
+          <div
+            className="grid gap-x-6 grid-cols-3 py-[97px]"
+            data-aos="fade-in"
+            data-aos-offset="200"
+            data-aos-delay="50"
+          >
+            <div
+              className="flex flex-col gap-y-5"
+              data-aos="flip-down"
+              data-aos-offset="200"
+              data-aos-delay="50"
+            >
               <img src={heroImg} alt="heroGrid" />
               <img src={heroImg2} alt="heroGrid" />
               <img src={heroImg3} alt="heroGrid" />

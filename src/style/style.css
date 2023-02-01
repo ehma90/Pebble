@@ -21,7 +21,7 @@ ul li{
 
 /* Hero Section */
 .hero-section{
-    background-image: url('public/herobg.svg');
+    background-image: url('../assets/herobg.svg');
     background-size: cover;
     background-repeat: no-repeat;
 }
