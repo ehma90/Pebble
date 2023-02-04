@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { RiArrowRightUpLine } from "react-icons/ri";
 
 export function Navbar() {
+  
   return (
     <div className="container mx-auto">
       <div className="flex justify-between items-center mt-7">

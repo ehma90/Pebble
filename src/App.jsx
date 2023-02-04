@@ -3,6 +3,8 @@ import {Hero } from "./component/Hero"
 import './style/style.css'
 import Programmes from "./component/Programmes"
 import Group from "./component/Group"
+import Events from "./component/Events"
+import Update from "./component/Update"
 import AOS from 'aos';
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <Hero/>
       <Programmes/>
       <Group/>
+      <Events/>
+      <Update/>
     </>
   )
 }

@@ -25,3 +25,31 @@ ul li{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* Event Section */
+.event-section{
+    background-image: url('../assets/eventBg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.event-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 19px;
+    overflow-y: scroll;
+    white-space: nowrap;
+}
+
+.event-group::-webkit-scrollbar{
+    display: none;
+}
+
+.event-date{
+    width: 660px;
+    object-fit: cover;
+    background-image: url('../assets/event1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 48px 24px 70px;
+}
