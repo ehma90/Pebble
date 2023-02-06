@@ -10,10 +10,10 @@ function Programmes() {
         <h2 className=" text-[28px] font-medium md:font-semibold md:text-[40px] text-center">
           Our Programmes
         </h2>
-        <div className=" block mt-0 mx-4 md:flex md:justify-center md:gap-x-6 md:mx-0 md:mt-[42px] ">
+        <div className=" mt-0 mx-4 flex flex-col md:flex-row md:justify-center items-center  md:gap-x-6 md:mx-0 md:mt-[42px] ">
           <div className="my-[32px] w-[392px] md:w-[421px] bg-[#479B7F] pt-[63px] pb-[37px] px-5">
             <h3 className="font-semibold text-xl md:text-[28px]">Start-Up Build</h3>
-            <p className=" text-base mt-4 md:text-xl md:mt-5 w-full">
+            <p className=" text-base mt-4 md:text-xl md:mt-5 ">
               A meeting of doers and thinkers who are hungry for development and
               growth. It features startup education, business linkups,
               fundraising, and knowledge sharing.

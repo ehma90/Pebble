@@ -7,8 +7,8 @@ import linkedIn from "../assets/linkedInIcon.svg"
 function Partners() {
   return (
     <div className="bg-[#19144E] p-[83px]">
-      <div className="container mx-auto">
-        <div className="flex justify-between">
+      <div className="container mx-4 md:mx-auto">
+        <div className="flex flex-col items-center md:flex-row justify-between">
           <div className="my-[70px] w-[538px]">
             <h3 className="font-semibold text-[40px]">
               Looking to partner with us? <br /> <span className="text-[#FCA397]">Get in touch</span>

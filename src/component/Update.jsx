@@ -9,7 +9,7 @@ function Update() {
       <div className='container mx-auto'>
         <div>
           <h2 className='text-center text-[40px] font-semibold text-[#19144E]'>News Updates</h2>
-          <div className='flex justify-center gap-x-[25px] mt-[52px]'>
+          <div className='flex flex-col items-center md:flex-row justify-center gap-[25px] mt-[52px]'>
             <div className='news-blog'>
               <img src={image1} alt="News Update" />
               <h3 className='font-medium text-xl text-[#19144E] mt-4'>Providing Sustainable growth to skill </h3>
