@@ -15,13 +15,13 @@ export function Hero() {
   return (
     <div className="hero-section">
       <div className="container mx-auto">
-        <div className="flex justify-between gap-[47px]">
-          <div className="py-[160px] w-[500px]">
-            <h1 className="text-[56px] font-[674] text-black">
+        <div className="block md:flex md:justify-between md:gap-[47px]">
+          <div className="mx-4 pt-[64px] md:py-[160px] w-[369px] md:w-[500px]">
+            <h1 className="text-[48px] md:text-[56px] font-[674] text-black">
               Skill-Up <br />{" "}
               <span className="text-[#D64911]">South_South</span>
             </h1>
-            <p className="text-black text-xl mt-5">
+            <p className="text-black text-base md:text-xl mt-5">
               Providing Sustainable growth to skill acquisition in akwa-ibom
               state and Africa
             </p>
@@ -30,7 +30,7 @@ export function Hero() {
             </button>
           </div>
           <div
-            className="grid gap-x-6 grid-cols-3 py-[97px]"
+            className="mx-4 md:mx-0 grid gap-x-6 grid-cols-3 py-[97px]"
             data-aos="fade-in"
             data-aos-offset="200"
             data-aos-delay="50"

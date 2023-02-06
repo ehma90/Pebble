@@ -9,6 +9,7 @@ html{
 body, h1, div, li{
     font-family: 'Open Sans', sans-serif !important;
     color: #fff;
+    overflow-x: hidden;
 }
 
 a{
@@ -72,6 +73,16 @@ ul li{
     height: 710px;
     background-image: url('../assets/eventImg.svg');
     padding: 79px 0 0 ;   
+}
+
+@media (max-width: 800px){
+    .event-card{
+        width: 369px;
+        height: 552px;
+        background-image: url('../assets/eventImg.svg');
+        object-fit: cover;
+        padding: 79px 0 0 ;   
+    }
 }
 
 .community-card{
