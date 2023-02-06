@@ -4,13 +4,13 @@ import { RiArrowRightUpLine } from "react-icons/ri";
 export function Navbar() {
   
   return (
-    <div className="container mx-auto">
+    <nav className="container mx-auto">
       <div className="flex justify-between items-center mt-7">
         <Link to="/" className="font-[674] text-2xl text-[#7B61FF]">
           PEBBLE
         </Link>
 
-        <div className="flex items-center gap-x-[48px]">
+        <div className="md:flex md:items-center md:gap-x-[48px]">
           <ul className="flex gap-x-[19px]">
             <li className="cursor-pointer">
               <a className="font-[674] text-[16px] text-[#19144eb3]/70">
@@ -34,6 +34,6 @@ export function Navbar() {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 }

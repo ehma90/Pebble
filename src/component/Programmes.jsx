@@ -18,7 +18,7 @@ function Programmes() {
               growth. It features startup education, business linkups,
               fundraising, and knowledge sharing.
             </p>
-            <button className="flex items-center border border-white py-3 px-[24px] mt-[36px]">
+            <button className="flex items-center transition ease delay-50 hover:bg-white hover:text-black border border-white py-3 px-[24px] mt-[36px]">
             Enroll Now <RiArrowRightUpLine className="text-2xl"/>
             </button>
           </div>
@@ -29,7 +29,7 @@ function Programmes() {
               growth. It features startup education, business linkups,
               fundraising, and knowledge sharing.
             </p>
-            <button className="flex items-center border border-white py-3 px-[24px] mt-[36px]">
+            <button className="flex items-center transition ease delay-50 hover:bg-white hover:text-black border border-white py-3 px-[24px] mt-[36px]">
             Enroll Now <RiArrowRightUpLine className="text-2xl"/>
             </button>
           </div>
@@ -40,7 +40,7 @@ function Programmes() {
               growth. It features startup education, business linkups,
               fundraising, and knowledge sharing.
             </p>
-            <button className="flex items-center border border-white py-3 px-[24px] mt-[36px]">
+            <button className="flex items-center transition ease delay-50 hover:bg-white hover:text-black border border-white py-3 px-[24px] mt-[36px]">
             Enroll Now <RiArrowRightUpLine className="text-2xl"/>
             </button>
           </div>

@@ -6,7 +6,7 @@ import {
 
 function Events() {
   return (
-    <section className="event-section overscroll-y-auto">
+    <section className=" event-section">
       <div className="container mx-auto">
         <div className="flex justify-between">
           <div className="w-[424px] py-[126px]">
@@ -25,8 +25,8 @@ function Events() {
             </div>
           </div>
           <div className="event-group">
-            <div className="event-date my-[19px]">
-              {/* <p className="w-[178px] rounded-[42px] font-medium text-xl py-2 px-4 bg-[#00000066]">
+            <div className="event-date my-[19px] ">
+              <p className="w-[178px] rounded-[42px] font-medium text-xl py-2 px-4 bg-[#00000066]">
                 1st November
               </p>
               <h4 className="font-semibold text-[58px]">
@@ -34,10 +34,10 @@ function Events() {
               </h4>
               <button className="flex items-center underline mt-[32px]">
                 See More Details <RiArrowRightUpLine className="ml-2" />
-              </button> */}
+              </button>
             </div>
-            <div className="event-date my-[19px]">
-              {/* <p className="w-[178px] rounded-[42px] font-medium text-xl py-2 px-4 bg-[#00000066]">
+            <div className="event-date2 my-[19px]">
+              <p className="w-[178px] rounded-[42px] font-medium text-xl py-2 px-4 bg-[#00000066]">
                 1st November
               </p>
               <h4 className="font-semibold text-[58px]">
@@ -45,10 +45,10 @@ function Events() {
               </h4>
               <button className="flex items-center underline mt-[32px]">
                 See More Details <RiArrowRightUpLine className="ml-2" />
-              </button> */}
+              </button>
             </div>
-            <div className="event-date my-[19px]">
-              {/* <p className="w-[178px] rounded-[42px] font-medium text-xl py-2 px-4 bg-[#00000066]">
+            <div className="event-date3 my-[19px]">
+              <p className="w-[178px] rounded-[42px] font-medium text-xl py-2 px-4 bg-[#00000066]">
                 1st November
               </p>
               <h4 className="font-semibold text-[58px]">
@@ -56,7 +56,7 @@ function Events() {
               </h4>
               <button className="flex items-center underline mt-[32px]">
                 See More Details <RiArrowRightUpLine className="ml-2" />
-              </button> */}
+              </button>
             </div>
           </div>
         </div>

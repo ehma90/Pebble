@@ -16,7 +16,7 @@ export function Hero() {
     <div className="hero-section">
       <div className="container mx-auto">
         <div className="flex justify-between gap-[47px]">
-          <div className="py-[160px]">
+          <div className="py-[160px] w-[500px]">
             <h1 className="text-[56px] font-[674] text-black">
               Skill-Up <br />{" "}
               <span className="text-[#D64911]">South_South</span>
@@ -25,7 +25,7 @@ export function Hero() {
               Providing Sustainable growth to skill acquisition in akwa-ibom
               state and Africa
             </p>
-            <button className="flex items-center text-white bg-[#7B61FF] py-4 px-[45px] mt-[40px]">
+            <button className="flex items-center text-white transition ease delay-50 bg-[#7B61FF] hover:bg-[#19144E] py-4 px-[45px] mt-[40px]">
               Get a skill <RiArrowRightUpLine className="w-5 h-5 ml-2" />
             </button>
           </div>

@@ -31,18 +31,12 @@ ul li{
     background-image: url('../assets/eventBg.svg');
     background-size: cover;
     background-repeat: no-repeat;
+    max-height: 533px;
+    overflow-x: hidden;
 }
 
 .event-group{
-    display: flex;
-    flex-direction: column;
-    margin-top: 19px;
-    overflow-y: scroll;
-    white-space: nowrap;
-}
-
-.event-group::-webkit-scrollbar{
-    display: none;
+    overflow-y: scroll !important;
 }
 
 .event-date{
@@ -52,4 +46,45 @@ ul li{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 48px 24px 70px;
+}
+
+.event-date2{
+    width: 660px;
+    object-fit: cover;
+    background-image: url('../assets/event2.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 48px 24px 70px;
+}
+
+.event-date3{
+    width: 660px;
+    object-fit: cover;
+    background-image: url('../assets/event3.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 48px 24px 70px;
+}
+
+/* Group section */
+.event-card{
+    width: 644px;
+    height: 710px;
+    background-image: url('../assets/eventImg.svg');
+    padding: 79px 0 0 ;   
+}
+
+.community-card{
+    width: 644px;
+    height: 710px;
+    background-image: url('../assets/communityImg.svg');
+    padding: 79px 0 0 ;     
+}
+
+/* News Update */
+.news-blog{
+    width: 421px;
+    padding: 24px;
+    background-color: white;
+    box-shadow: 2px 2px 37px rgba(25, 20, 78, 0.17);
 }
