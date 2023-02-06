@@ -11,7 +11,6 @@ import heroImg9 from "../assets/heroImg9.svg";
 import "../style/style.css";
 
 export function Hero() {
-  
   return (
     <div className="hero-section">
       <div className="container mx-auto">
@@ -21,7 +20,7 @@ export function Hero() {
               Skill-Up <br />{" "}
               <span className="text-[#D64911]">South_South</span>
             </h1>
-            <p className="text-black text-base md:text-xl mt-5">
+            <p className="mr-4 text-black text-base md:text-xl mt-5">
               Providing Sustainable growth to skill acquisition in akwa-ibom
               state and Africa
             </p>
@@ -35,12 +34,7 @@ export function Hero() {
             data-aos-offset="200"
             data-aos-delay="50"
           >
-            <div
-              className="flex flex-col gap-y-5"
-              data-aos="flip-down"
-              data-aos-offset="200"
-              data-aos-delay="50"
-            >
+            <div className="flex flex-col gap-y-5">
               <img src={heroImg} alt="heroGrid" />
               <img src={heroImg2} alt="heroGrid" />
               <img src={heroImg3} alt="heroGrid" />

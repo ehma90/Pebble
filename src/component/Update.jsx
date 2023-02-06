@@ -7,13 +7,12 @@ function Update() {
   return (
     <section className='bg-[#ECEAF8] py-[100px]'>
       <div className='container mx-auto'>
-        <div>
           <h2 className='text-center text-[40px] font-semibold text-[#19144E]'>News Updates</h2>
-          <div className='flex flex-col items-center md:flex-row justify-center gap-[25px] mt-[52px]'>
+          <div className='flex flex-col items-center md:flex-row justify-center gap-[25px] mt-[52px] mx-4'>
             <div className='news-blog'>
               <img src={image1} alt="News Update" />
-              <h3 className='font-medium text-xl text-[#19144E] mt-4'>Providing Sustainable growth to skill </h3>
-              <p className='text-[#19144E]/70 mt-3'>Providing Sustainable growth to skill acquisition in akwa-ibom state and Africa</p>
+              <h3 className='font-medium text-base md:text-xl text-[#19144E] mt-4'>Providing Sustainable growth to skill </h3>
+              <p className='text-sm md:text-base text-[#19144E]/70 mt-3'>Providing Sustainable growth to skill acquisition in akwa-ibom state and Africa</p>
 
               <button className="flex items-center underline mt-[47px] font-semibold text-[#7B61FF]">
                 See More Details <RiArrowRightUpLine className="ml-2" />
@@ -38,7 +37,6 @@ function Update() {
               </button>
             </div>
           </div>
-        </div>
       </div>
     </section>
   );

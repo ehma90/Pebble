@@ -124,20 +124,24 @@ ul li{
 
 @media (max-width: 800px){
     .event-card, .community-card{
-        width: 369px;
+        max-width: 369px;
+        width: 100%;
         height: 552px;  
-        margin: 32px 0 0;
+        margin: 32px 0;
     }
 }
 
 /* News Update */
 .news-blog{
-    width: 421px;
+    max-width: 421px;
     padding: 24px;
     background-color: white;
     box-shadow: 2px 2px 37px rgba(25, 20, 78, 0.17);
 }
 
 @media (max-width: 800px){
-    
+    .news-blog{
+        max-width: 369px;
+        width: 100%;
+    }
 }
