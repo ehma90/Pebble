@@ -26,7 +26,7 @@ function Programmes() {
               <h3 className="font-semibold text-xl md:text-[28px]">
                 Skill Trainings
               </h3>
-              <p className="text-xl mt-5">
+              <p className="text-base mt-4 md:text-xl md:mt-5">
                 A meeting of doers and thinkers who are hungry for development
                 and growth. It features startup education, business linkups,
                 fundraising, and knowledge sharing.
@@ -39,7 +39,7 @@ function Programmes() {
               <h3 className="font-semibold text-xl md:text-[28px]">
                 Women In Tech
               </h3>
-              <p className="text-xl mt-5">
+              <p className="text-base mt-4 md:text-xl md:mt-5">
                 A meeting of doers and thinkers who are hungry for development
                 and growth. It features startup education, business linkups,
                 fundraising, and knowledge sharing.
