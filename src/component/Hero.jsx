@@ -12,7 +12,7 @@ import "../style/style.css";
 
 export function Hero() {
   return (
-    <div className="hero-section">
+    <div className="hero-section ">
       <div className="container mx-auto">
         <div className="block md:flex md:justify-between md:gap-[47px]">
           <div className="mx-4 pt-[64px] md:py-[160px] w-[369px] md:w-[500px]">

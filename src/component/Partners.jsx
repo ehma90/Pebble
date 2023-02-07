@@ -6,10 +6,10 @@ import linkedIn from "../assets/linkedInIcon.svg";
 
 function Partners() {
   return (
-    <div className="bg-[#19144E] p-[83px]">
+    <div className="bg-[#19144E] px-4 py-[63px] md:py-[83px] ">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row md:justify-between">
-          <div className="my-[70px] w-full max-w-[371px] md:max-w-[538px]">
+          <div className=" w-full max-w-[371px] md:max-w-[538px]">
             <h3 className="font-semibold text-[28px] md:text-[40px]">
               Looking to partner with us? <br />{" "}
               <span className="text-[#FCA397]">Get in touch</span>
@@ -25,26 +25,26 @@ function Partners() {
             </button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full max-w-[371px] md:max-w-[528px]">
-            <div className="px-[6px] py-[16px] md:px-[80px] md:py-[40px] flex flex-col items-center bg-[#302B60] hover:bg-[#19144E] w-[253px] cursor-pointer">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5 w-full max-w-[371px] md:max-w-[528px] mt-[64px] md:mt-0">
+            <div className="px-[6px] py-[16px] md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-[253px] cursor-pointer">
               <div className="flex justify-center items-center">
                 <img src={facebook} alt="facebook" />
               </div>
               <p className="text-2xl text-center mt-5">Facebook</p>
             </div>
-            <div className="px-[6px] py-[16px] md:px-[80px] md:py-[40px] flex flex-col items-center bg-[#302B60] hover:bg-[#19144E] w-[253px] cursor-pointer">
+            <div className="px-[6px] py-[16px] md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-[253px] cursor-pointer">
               <div className="flex justify-center items-center">
                 <img src={instagram} alt="instagram" />
               </div>
               <p className="text-2xl text-center mt-5">Instagram</p>
             </div>
-            <div className="px-[6px] py-[16px] md:px-[80px] md:py-[40px] flex flex-col items-center bg-[#302B60] hover:bg-[#19144E] w-[253px] cursor-pointer">
+            <div className="px-[6px] py-[16px] md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-[253px] cursor-pointer">
               <div className="flex justify-center items-center">
                 <img src={twitter} alt="twitter" />
               </div>
               <p className="text-2xl text-center mt-5">Twitter</p>
             </div>
-            <div className="px-[6px] py-[16px] md:px-[80px] md:py-[40px] flex flex-col items-center bg-[#302B60] hover:bg-[#19144E] w-[253px] cursor-pointer">
+            <div className="px-[6px] py-[16px] md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-[253px] cursor-pointer">
               <div className="flex justify-center items-center">
                 <img src={linkedIn} alt="linkedIn" />
               </div>

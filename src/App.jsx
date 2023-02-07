@@ -29,13 +29,13 @@ function App() {
     <>
       {menu && <Modal handleClick={closeMenu} />}
       <Navbar handleClick={showMenu}/>
-      <Hero />
-      <Programmes />
-      <Group />
-      <Events />
-      <Update />
-      <Partners />
-      <Footer />
+      {/* <Hero /> */}
+      {/* <Programmes /> */}
+      {/* <Group /> */}
+      {/* <Events /> */}
+      {/* <Update /> */}
+      {/* <Partners /> */}
+      {/* <Footer /> */}
     </>
   );
 }

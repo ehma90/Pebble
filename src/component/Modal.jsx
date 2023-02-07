@@ -4,7 +4,7 @@ import {RiCloseLine, RiArrowRightUpLine} from 'react-icons/ri'
 
 function Modal({handleClick}) {
   return (
-    <div className='modal'>
+    <div className='modal '>
       <div className='mx- md:container md:mx-auto'>
         <div className='flex justify-between items-center'>
             <h2 className='text-2xl font-[674]'>Menu</h2>

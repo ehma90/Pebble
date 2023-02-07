@@ -6,7 +6,7 @@ import {
 
 function Events() {
   return (
-    <section className=" event-section">
+    <section className=" event-section ">
       <div className="container mx-4 md:mx-auto">
         <div className="block md:flex md:justify-between">
           <div className="w-[424px] py-[64px] md:py-[126px] overflow-y-hidden">
