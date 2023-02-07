@@ -7,7 +7,7 @@ function Modal({handleClick}) {
     <div className='modal'>
       <div className='mx- md:container md:mx-auto'>
         <div className='flex justify-between items-center'>
-            <h2 className='text-xl font-[674]'>Menu</h2>
+            <h2 className='text-2xl font-[674]'>Menu</h2>
             <div className='bg-white p-[10px] rounded-[7.2px]' onClick={handleClick}>
                 <RiCloseLine size={20} color={'#000000'}/>
             </div>
