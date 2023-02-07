@@ -1,7 +1,9 @@
+
 import { Link } from "react-router-dom";
 import { RiArrowRightUpLine, RiMenu4Fill } from "react-icons/ri";
+// import ModalContext from "../context/ModalContext";
 
-export function Navbar() {
+export function Navbar({handleClick}) {
   
   return (
     <nav className=" mx-4 md:container md:mx-auto ">
@@ -10,7 +12,7 @@ export function Navbar() {
           PEBBLE
         </Link>
 
-        <div className="md:hidden p-2 bg-[#19144E] rounded-[7.2px]">
+        <div className="md:hidden p-2 bg-[#19144E] rounded-[7.2px]" onClick={handleClick}>
           <RiMenu4Fill/>
         </div>
 
