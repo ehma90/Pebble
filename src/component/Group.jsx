@@ -4,7 +4,7 @@ import communityImg from "../assets/communityImg.svg";
 
 function Group() {
   return (
-    <div className="py-[64px] md:py-[100px] px-4 md:px-0">
+    <div name="events" className="py-[64px] md:py-[100px] px-4 md:px-0">
       <div className="container mx-auto">
         <div className="block md:flex md:justify-center md:gap-x-6">
           <div className="event-card">

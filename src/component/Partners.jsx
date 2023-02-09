@@ -6,7 +6,7 @@ import linkedIn from "../assets/linkedInIcon.svg";
 
 function Partners() {
   return (
-    <div className="bg-[#19144E] px-4 py-[63px] md:py-[83px] ">
+    <div name="partners" className="bg-[#19144E] px-4 py-[63px] md:py-[83px] ">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className=" w-full max-w-[371px] md:max-w-[538px]">

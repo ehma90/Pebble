@@ -1,5 +1,6 @@
 
 import {RiCloseLine, RiArrowRightUpLine} from 'react-icons/ri'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 function Modal({handleClick}) {
@@ -14,10 +15,26 @@ function Modal({handleClick}) {
         </div>
 
         <ul className='nav-list'>
-          <li>Programmes</li>
-          <li>Events</li>
-          <li>Contact Us</li>
-          <li>News</li>
+          <li>
+            <Link to="programmes" smooth={true} duration={500}>
+            Programmes
+            </Link>
+          </li>
+          <li>
+            <Link to="events" smooth={true}  duration={500}>
+            Events
+            </Link>
+          </li>
+          <li>
+            <Link to="partners" smooth={true} duration={500}>
+            Contact Us
+            </Link>
+          </li>
+          <li>
+            <Link to="news" smooth={true} offset={-50} duration={500}>
+            News
+            </Link>
+          </li>
         </ul>
 
         <div className='py-3 px-6 font-semibold flex justify-start items-center border border-white w-[219px] mx-auto mt-[176px] hover:bg-white hover:text-black'>

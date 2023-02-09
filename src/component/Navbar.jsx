@@ -1,14 +1,14 @@
 
-import { Link } from "react-router-dom";
+
 import { RiArrowRightUpLine, RiMenu4Fill } from "react-icons/ri";
-// import ModalContext from "../context/ModalContext";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export function Navbar({handleClick}) {
   
   return (
     <nav className=" mx-4 md:container md:mx-auto ">
       <div className="flex justify-between items-center mt-7">
-        <Link to="/" className="font-[674] text-2xl text-[#7B61FF]">
+        <Link to="home" smooth={true} duration={500} className="font-[674] text-2xl text-[#7B61FF]">
           PEBBLE
         </Link>
 
@@ -19,20 +19,20 @@ export function Navbar({handleClick}) {
         <div className="hidden md:flex md:items-center md:gap-x-[48px]">
           <ul className="flex gap-x-[19px]">
             <li className="cursor-pointer">
-              <a className="font-[674] text-[16px] text-[#19144eb3]/70">
+              <Link to="programmes" smooth={true} duration={500} className="font-[674] text-[16px] text-[#19144eb3]/70">
                 Programmes
-              </a>
+              </Link>
             </li>
             <li className="cursor-pointer">
-              <a className="font-[674] text-[16px] text-[#19144eb3]/70">Events</a>
+              <Link to="events" smooth={true}  duration={500} className="font-[674] text-[16px] text-[#19144eb3]/70">Events</Link>
             </li>
             <li className="cursor-pointer">
-              <a className="font-[674] text-[16px] text-[#19144eb3]/70">
+              <Link to="partners" smooth={true} duration={500} className="font-[674] text-[16px] text-[#19144eb3]/70">
                 Contact Us
-              </a>
+              </Link>
             </li>
             <li className="cursor-pointer">
-              <a className="font-[674] text-[16px] text-[#19144eb3]/70">News</a>
+              <Link to="news" smooth={true} offset={-50} duration={500} className="font-[674] text-[16px] text-[#19144eb3]/70">News</Link>
             </li>
           </ul>
           <div className="flex items-center text-[#7B61FF] py-[10px] px-4 border border-[#7B61FF] cursor-pointer">

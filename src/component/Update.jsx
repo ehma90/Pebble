@@ -6,7 +6,7 @@ import image3 from '../assets/image3.svg'
 function Update() {
   return (
     <section className='bg-[#ECEAF8] py-[64px] md:py-[100px] '>
-      <div className='container mx-auto'>
+      <div name="news" className='container mx-auto'>
           <h2 className='text-center text-[28px] md:text-[40px] font-semibold text-[#19144E]'>News Updates</h2>
           <div className='flex flex-col items-center md:flex-row justify-center gap-[25px] mt-[52px] mx-4'>
             <div className='news-blog'>

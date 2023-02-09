@@ -6,15 +6,19 @@ import {
 
 function Events() {
   return (
-    <section className=" event-section ">
-      <div className="container mx-4 md:mx-auto">
+    <section  className="bg-[#19144E] h-[533px]  md:overflow-x-hidden">
+      <div className="container px-4 md:mx-auto">
         <div className="block md:flex md:justify-between">
-          <div className="w-[424px] py-[64px] md:py-[126px] overflow-y-hidden">
-            <h3 className="font-semibold text-[28px] md:text-[40px]">Upcoming events</h3>
-            <p className="mt-5 text-base md:text-xl">
-              Providing Sustainable growth to skill acquisition in akwa-ibom
-              state and Africa
-            </p>
+          <div className="event-section">
+            <div className="w-full max-w-[352px] md:max-w-[424px] py-[64px] md:py-[126px] overflow-y-hidden">
+              <h3 className="font-semibold text-[28px] md:text-[40px]">
+                Upcoming events
+              </h3>
+              <p className="mt-5 text-base md:text-xl">
+                Providing Sustainable growth to skill acquisition in akwa-ibom
+                state and Africa
+              </p>
+            </div>
           </div>
 
           <div className="event-group">

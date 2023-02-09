@@ -2,7 +2,7 @@ import { RiArrowRightUpLine } from "react-icons/ri";
 
 function Programmes() {
   return (
-    <div className="bg-[#19144E] py-[100px] ">
+    <div name="programmes" className="bg-[#19144E] py-[100px] ">
       <div className="container mx-auto">
         <div className=" mx-4">
           <h2 className=" text-[28px] font-medium md:font-semibold md:text-[40px] text-center">
