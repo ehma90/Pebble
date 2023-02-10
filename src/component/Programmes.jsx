@@ -8,8 +8,8 @@ function Programmes() {
           <h2 className=" text-[28px] font-medium md:font-semibold md:text-[40px] text-center">
             Our Programmes
           </h2>
-          <div className=" flex flex-col md:flex-row md:justify-center items-center  md:gap-x-6 md:mx-0 md:mt-[42px] w-full">
-            <div className="my-[32px] w-full max-w-[392px] md:max-w-[421px] bg-[#479B7F] pt-[40px] md:pt-[63px] pb-[37px] px-7 md:px-5">
+          <div className=" flex flex-col md:flex-row md:justify-between items-center  md:gap-x-6 md:mx-0 md:mt-[42px] w-full">
+            <div className="my-[32px] w-full bg-[#479B7F] pt-[40px] md:pt-[63px] pb-[37px] px-7 md:px-5">
               <h3 className="font-semibold text-xl md:text-[28px]">
                 Start-Up Build
               </h3>
@@ -22,7 +22,7 @@ function Programmes() {
                 Enroll Now <RiArrowRightUpLine className="text-2xl" />
               </button>
             </div>
-            <div className=" my-[32px] w-full max-w-[392px] md:max-w-[421px] bg-[#6E57E8] pt-[63px] pb-[37px] px-5">
+            <div className=" my-[32px] w-full bg-[#6E57E8] pt-[63px] pb-[37px] px-5">
               <h3 className="font-semibold text-xl md:text-[28px]">
                 Skill Trainings
               </h3>
@@ -35,7 +35,7 @@ function Programmes() {
                 Enroll Now <RiArrowRightUpLine className="text-2xl" />
               </button>
             </div>
-            <div className=" my-[32px] w-full max-w-[392px] md:max-w-[421px] bg-[#C5164A] pt-[63px] pb-[37px] px-5">
+            <div className=" my-[32px] w-full bg-[#C5164A] pt-[63px] pb-[37px] px-5">
               <h3 className="font-semibold text-xl md:text-[28px]">
                 Women In Tech
               </h3>
