@@ -78,6 +78,54 @@ ul li {
   border-radius: 20px;
 }
 
+.evt1{
+  background-image: url("../assets/event1.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+.evt2{
+  background-image: url("../assets/event2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+.evt3{
+  background-image: url("../assets/event3.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+}
+
+.slider.animated .slide{
+  padding: 50px 0;
+}
+
+.carousel-status{
+    display: none;
+}
+
+.control-dots .dot{
+    width: 2.4rem;
+    height: 2.4rem;
+    color: red !important; 
+}
+
+
+.carousel .control-dots .dot {
+  box-shadow: none;
+  background: #CECECE;
+}
+
+.carousel .control-dots .dot.selected {
+  background: black;
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.btn-top {
+top:calc(50% - 300px);
+}
+
 @media (max-width: 800px) {
   .event-section {
     max-height: 533px;
