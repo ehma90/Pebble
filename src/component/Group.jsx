@@ -6,7 +6,7 @@ function Group() {
   return (
     <div className="py-[64px] md:py-[100px] px-4 md:px-0">
       <div className="container mx-auto">
-        <div className="flex flex-col items-center  md:flex-row md:justify-center md:gap-x-6">
+        <div className="flex flex-col items-center  md:flex-row md:justify-between md:gap-x-6">
           <div className="event-card">
             <div className="px-[32px]">
               <h3 className="text-xl md:text-[28px] font-semibold">Event</h3>
