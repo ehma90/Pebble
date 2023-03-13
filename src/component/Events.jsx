@@ -6,22 +6,23 @@ import {
 
 function Events() {
   return (
-    <section  className="bg-[#19144E] h-[533px]  md:overflow-x-hidden">
-      <div className="container px-4 md:mx-auto">
-        <div className="block md:flex md:justify-between">
-          <div className="event-section">
-            <div className="w-full max-w-[352px] md:max-w-[424px] py-[64px] md:py-[126px] overflow-y-hidden">
-              <h3 className="font-semibold text-[28px] md:text-[40px]">
-                Upcoming events
-              </h3>
-              <p className="mt-5 text-base md:text-xl">
-                Providing Sustainable growth to skill acquisition in akwa-ibom
-                state and Africa
-              </p>
-            </div>
+    <section className="bg-[#19144E] h-[533px] md:flex md:justify-between overflow-hidden">
+      <div className="w-[90%] md:w-[50%] mx-auto">
+        <div className="event-section">
+          <div className="w-full max-w-[352px] md:max-w-[424px] py-[64px] md:py-[126px] md:mx-auto overflow-y-hidden">
+            <h3 className="font-semibold text-[28px] md:text-[40px]">
+              Upcoming events
+            </h3>
+            <p className="mt-5 text-base md:text-xl">
+              Providing Sustainable growth to skill acquisition in akwa-ibom
+              state and Africa
+            </p>
           </div>
-
-          <div className="event-group">
+        </div>
+      </div>
+      <div className="overflow-x-auto md:overflow-y-auto md:w-[50%] mx-auto">
+        <div className="event-group md:overflow-y-scroll">
+          <div className="flex flex-nowrap flex-row md:flex-col gap-[20px]">
             <div className="event-date ">
               <p className=" w-[132px] md:w-[178px] rounded-[42px] font-medium text-center text-[12px] md:text-xl py-2 px-4 bg-[#00000066]">
                 1st November

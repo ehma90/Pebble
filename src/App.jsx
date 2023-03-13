@@ -32,7 +32,7 @@ function App() {
       <Hero />
       <Programmes />
       <Group />
-      {/* <Events /> */}
+      <Events />
       <Update />
       <Partners />
       <Footer />
