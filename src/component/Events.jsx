@@ -10,7 +10,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Events() {
   return (
-    <section className="bg-[#19144E] h-[533px] md:flex md:justify-between overflow-hidden">
+    <section name="events" className="bg-[#19144E] h-[533px] md:flex md:justify-between overflow-hidden">
       <div className="w-[90%] md:w-[50%] mx-auto">
         <div className="event-section">
           <div className="w-full max-w-[352px] md:max-w-[424px] pt-[64px] md:py-[126px] md:mx-auto overflow-y-hidden">
