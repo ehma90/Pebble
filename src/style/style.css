@@ -93,9 +93,16 @@ ul li {
   background-size: cover;
   background-repeat: no-repeat;
 }
+li .slide{
+  margin: 50px 0;
+}
+
+.carousel .control-dots{
+  display: none;
+}
 
 .slider.animated .slide{
-  padding: 50px 0;
+  padding: 50px 0 90px;
 }
 
 .carousel-status{

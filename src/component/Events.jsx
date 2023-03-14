@@ -10,7 +10,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Events() {
   return (
-    <section name="events" className="bg-[#19144E] h-[533px] md:flex md:justify-center md:gap-x-[247px] overflow-hidden ">
+    <section name="events" className="bg-[#19144E] h-[600px] md:h-[533px] md:flex md:justify-center md:gap-x-[247px] overflow-hidden ">
       <div className="flex flex-col items-end  w-[90%] md:w-[50%] mx-auto">
         <div className="event-section">
           <div className="w-full max-w-[352px] md:max-w-[424px] pt-[64px] md:py-[126px] md:mx-auto overflow-y-hidden">
@@ -74,10 +74,10 @@ function Events() {
               <div
                 className={`${
                   hasPrev ? "absolute" : "hidden"
-                } w-[20px] h-[20px] bg-white bottom-[45%] left-0 flex justify-center items-center px-1 cursor-pointer z-20 border border-black rounded-full`}
+                } w-[40px] h-[40px] bg-[#19144E] top-[300px] left-[2%] flex justify-center items-center p-[12px] cursor-pointer z-20 border border-white rounded-[3px]`}
                 onClick={clickHandler}
               >
-                <RiArrowLeftSLine className="w-9 h-9 text-black " />
+                <RiArrowLeftLine className="w-9 h-9 text-white " />
               </div>
             );
           }}
@@ -86,10 +86,10 @@ function Events() {
               <div
                 className={`${
                   hasNext ? "absolute" : "hidden"
-                } w-[20px] h-[20px] bg-white bottom-[45%] right-0 flex justify-center items-center px-1 cursor-pointer z-20 border border-black rounded-full`}
+                } w-[40px] h-[40px] bg-[#19144E] top-[300px] left-[25%] flex justify-center items-center p-[12px] cursor-pointer z-20 border border-white rounded-[3px]`}
                 onClick={clickHandler}
               >
-                <RiArrowRightSLine className="w-9 h-9 dark:text-black " />
+                <RiArrowRightLine className="w-9 h-9 text-white " />
               </div>
             );
           }}
