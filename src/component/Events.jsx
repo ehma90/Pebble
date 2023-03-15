@@ -63,18 +63,19 @@ function Events() {
           </div>
         </div>
       </div>
-      <div className="block md:hidden px-[16px]">
+      <div className="block md:hidden px-[16px] py-[50px] relative">
         <Carousel
-          autoPlay
+        autoFocus={true}
+          autoPlay={true}
           infiniteLoop8
           interval="2000"
-          className="relative"
+          className="relative "
           renderArrowPrev={(clickHandler, hasPrev) => {
             return (
               <div
                 className={`${
                   hasPrev ? "absolute" : "hidden"
-                } w-[40px] h-[40px] bg-[#19144E] top-[300px] left-[2%] flex justify-center items-center p-[12px] cursor-pointer z-20 border border-white rounded-[3px]`}
+                } w-[40px] h-[40px] bg-[#19144E] top-[250px] left-[2%] flex justify-center items-center p-[12px] cursor-pointer z-40 border border-white rounded-[3px]`}
                 onClick={clickHandler}
               >
                 <RiArrowLeftLine className="w-9 h-9 text-white " />
@@ -86,7 +87,7 @@ function Events() {
               <div
                 className={`${
                   hasNext ? "absolute" : "hidden"
-                } w-[40px] h-[40px] bg-[#19144E] top-[300px] left-[25%] flex justify-center items-center p-[12px] cursor-pointer z-20 border border-white rounded-[3px]`}
+                } w-[40px] h-[40px] bg-[#19144E] top-[250px] left-[25%] flex justify-center items-center p-[12px] cursor-pointer z-40 border border-white rounded-[3px]`}
                 onClick={clickHandler}
               >
                 <RiArrowRightLine className="w-9 h-9 text-white " />
@@ -94,7 +95,7 @@ function Events() {
             );
           }}
         >
-          <div className="evt1 w-[320px] mx-auto py-[24px] px-[12px]">
+          <div className="evt1 w-full max-w-[360px] mx-auto py-[24px] px-[12px]">
             <p className=" w-[91px] md:w-[178px] rounded-[42px] font-medium text-[10px] md:text-xl py-1 px-2 bg-[#00000066]">
               1st November
             </p>
@@ -105,7 +106,7 @@ function Events() {
               See More Details <RiArrowRightUpLine className="ml-2" />
             </button>
           </div>
-          <div className="evt2 w-[320px] mx-auto py-[24px] px-[12px]">
+          <div className="evt2 w-full max-w-[360px] mx-auto py-[24px] px-[12px]">
             <p className=" w-[91px] md:w-[178px] rounded-[42px] font-medium text-[10px] md:text-xl py-1 px-2 bg-[#00000066]">
               21st April
             </p>
@@ -116,7 +117,7 @@ function Events() {
               See More Details <RiArrowRightUpLine className="ml-2" />
             </button>
           </div>
-          <div className="evt3 w-[320px] mx-auto py-[24px] px-[12px]">
+          <div className="evt3 w-full max-w-[360px] mx-auto py-[24px] px-[12px]">
             <p className=" w-[91px] md:w-[178px] rounded-[42px] font-medium text-[10px] md:text-xl py-1 px-2 bg-[#00000066]">
               3rd May
             </p>

@@ -26,25 +26,25 @@ function Partners() {
           </div>
 
           <div className=" grid grid-cols-2 gap-5 w-full max-w-[371px] md:max-w-[528px] mt-[64px] md:mt-0">
-            <div className="p-5 md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-[158px] md:w-[253px] cursor-pointer">
+            <div className="p-5 md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-full max-w-[158px] md:max-w-[253px] cursor-pointer">
               <div className="flex justify-center items-center">
                 <img src={facebook} alt="facebook" />
               </div>
               <p className="text-[18px] md:text-2xl text-center mt-[14px] md:mt-5">Facebook</p>
             </div>
-            <div className="p-5 md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-[158px] md:w-[253px] cursor-pointer">
+            <div className="p-5 md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-full max-w-[158px] md:max-w-[253px] cursor-pointer">
               <div className="flex justify-center items-center">
                 <img src={instagram} alt="instagram" />
               </div>
               <p className="text-[18px] md:text-2xl text-center mt-[14px] md:mt-5">Instagram</p>
             </div>
-            <div className="p-5 md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-[158px] md:w-[253px] cursor-pointer">
+            <div className="p-5 md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-full max-w-[158px] md:max-w-[253px] cursor-pointer">
               <div className="flex justify-center items-center">
                 <img src={twitter} alt="twitter" />
               </div>
               <p className="text-[18px] md:text-2xl text-center mt-[14px] md:mt-5">Twitter</p>
             </div>
-            <div className="p-5 md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-[158px] md:w-[253px] cursor-pointer">
+            <div className="p-5 md:px-[50px] md:py-[40px] bg-[#302B60] hover:bg-[#19144E] w-full max-w-[158px] md:max-w-[253px] cursor-pointer">
               <div className="flex justify-center items-center">
                 <img src={linkedIn} alt="linkedIn" />
               </div>
